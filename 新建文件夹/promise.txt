@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<div id="div1">
+		<p id="p1">这是一个段落。</p>
+		<p id="p2">这是另一个段落。</p>
+		</div>
+		<script>
+		var a=document.getElementById("p");
+		var b=document.createTextNode("111");
+		b.appendChild(b);
+		var element=document.getElementById('div1');
+		element.appendChild(a);
+		</script>
+	</body>
+</html>
